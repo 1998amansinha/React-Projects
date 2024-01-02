@@ -5,13 +5,12 @@ import {
   Blog,
   Possibility,
   Feature,
-  WhatGPT3,
+  WhatGPT3,  
   Header,
 } from "./containers";
 import { CTA, Brand, Navbar } from "./components";
 import './App.css'
 import './index.css'
-
 
 const App = () => {
   return (
