@@ -4,10 +4,10 @@ import {
   Footer,
   Blog,
   Possibility,
-  Feature,
+  Features,
   WhatGPT3,  
   Header,
-} from "./containers";
+} from './containers';
 import { CTA, Brand, Navbar } from "./components";
 import './App.css'
 import './index.css'
@@ -21,7 +21,7 @@ const App = () => {
       </div>
       <Brand />
       <WhatGPT3 />
-      <Feature />
+      <Features />
       <Possibility />
       <CTA />
       <Blog />
